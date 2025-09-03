@@ -29,14 +29,14 @@ export default function Agent() {
         </div>
 
         {/* Layout em 3 colunas com o telefone sobrepondo os painéis */}
-  <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-[1fr_auto_1fr] items-center bg-[#053633]/90 sm:rounded-2xl  sm:my-[40px]">
+        <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-[1fr_auto_1fr] items-center bg-[#053633]/90 sm:rounded-2xl  sm:my-[40px]">
           {/* Painel esquerdo */}
           <div className="w-full order-2 lg:order-1">
             <div className="rounded-2xl p-6 md:p-8 text-[#FFFFFF] flex">
               <div className="flex flex-col gap-8 my-auto">
                 <div className="flex flex-col items-center gap-6 ">
                   <div className="flex flex-col items-center gap-6  text-center">
-                    <div className="p-4 flex items-center justify-center bg-[#01AEA40D] ">
+                    <div className="p-4 flex items-center justify-center rounded-xl bg-[#01AEA40D] ">
                       <Filter />
                     </div>
                     <div>
@@ -48,7 +48,7 @@ export default function Agent() {
                 </div>
                 <div className="flex flex-col items-center gap-6 ">
                   <div className="flex flex-col items-center gap-6  text-center">
-                    <div className="p-4 flex items-center justify-center bg-[#01AEA40D] ">
+                    <div className="p-4 flex items-center justify-center rounded-xl bg-[#01AEA40D] ">
                       <Settings />
                     </div>
                     <div>
@@ -80,7 +80,7 @@ export default function Agent() {
               <div className="flex flex-col gap-8 my-auto">
                 <div className="flex flex-col items-center gap-6 ">
                   <div className="flex flex-col items-center gap-6 text-center">
-                    <div className="p-4 flex items-center justify-center bg-[#01AEA40D] ">
+                    <div className="p-4 flex items-center justify-center rounded-xl bg-[#01AEA40D] ">
                       <ChatsAgent />
                     </div>
                     <div>
@@ -91,7 +91,7 @@ export default function Agent() {
 
                 <div className="flex flex-col items-center gap-6 ">
                   <div className="flex flex-col items-center gap-6  text-center">
-                    <div className="p-4 flex items-center justify-center bg-[#01AEA40D] ">
+                    <div className="p-4 flex items-center justify-center rounded-xl bg-[#01AEA40D] ">
                       <ClockNoCheck />
                     </div>
                     <div>
